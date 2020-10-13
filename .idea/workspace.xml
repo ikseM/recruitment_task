@@ -10,13 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8febae01-77bc-4db0-bbc5-820e3f05a7d2" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    <list default="true" id="8febae01-77bc-4db0-bbc5-820e3f05a7d2" name="Default Changelist" comment="Changes for app basic">
+      <change afterPath="$PROJECT_DIR$/src/commons/parkingi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Callbacks_live" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ijFT6xSZaVjo8pHMKysSZU5WPT" />
@@ -43,6 +44,15 @@
     <property name="ts.external.directory.path" value="D:\recruitment_task\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="APP:START" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602413098860</updated>
       <workItem from="1602413100379" duration="878000" />
+      <workItem from="1602601008322" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1602413956907</created>
@@ -60,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602413956907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes for app basic">
+      <created>1602600760800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602600760800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,9 +98,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Changes for app basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes for app basic" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602600800654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600800654" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602413746475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -91,25 +114,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600743664" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602600667303">
+    <state width="606" height="660" key="Git.Branch.Popup" timestamp="1602600823226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600667303" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602600667303">
+    <state width="606" height="660" key="Git.Branch.Popup/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600823226" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602600964315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600667303" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602600667303">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600964315" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602600964314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600667303" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602600667303">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600964314" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602600964314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600667303" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602413961687">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600964314" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602600964314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600964314" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602600851715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602600851715" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602413961687" />
     <state x="696" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1602600592333">
       <screen x="0" y="0" width="1920" height="1040" />
