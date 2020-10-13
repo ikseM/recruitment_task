@@ -10,15 +10,53 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8febae01-77bc-4db0-bbc5-820e3f05a7d2" name="Default Changelist" comment="Initial commit">
+    <list default="true" id="8febae01-77bc-4db0-bbc5-820e3f05a7d2" name="Default Changelist" comment="Removed &quot;TEST&quot;">
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/parkingi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapView/Map.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapView/MapView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapView/helpers/interactions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapView/helpers/map.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapView/helpers/overlay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Parkings/ParkingForm/ParkingForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Parkings/ParkingForm/helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Parkings/Parkings.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Parkings/Parkings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Parkings/columns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tooltip/Tooltip.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tooltip/Tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Features.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Interactions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/interactions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/parking.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ijFT6xSZaVjo8pHMKysSZU5WPT" />
@@ -29,14 +67,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Parkings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\recruitment_task\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="D:\recruitment_task\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\recruitment_task\src\components\Parkings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\recruitment_task\src\components\MapView\helpers" />
+      <recent name="D:\recruitment_task\src\components\Main" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +93,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602413098860</updated>
-      <workItem from="1602413100379" duration="878000" />
+      <workItem from="1602413100379" duration="16478000" />
+      <workItem from="1602432505318" duration="5026000" />
+      <workItem from="1602520040896" duration="15461000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1602413956907</created>
@@ -55,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602413956907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed &quot;TEST&quot;">
+      <created>1602413997512</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602413997512</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,19 +127,34 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Removed &quot;TEST&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed &quot;TEST&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602413746475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602413746475" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602413961687">
+    <state width="692" height="607" key="Git.Branch.Popup" timestamp="1602414048144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602413961687" />
+    <state width="692" height="607" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602414048144" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602520080829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602520080829" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602432928002" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602414165964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602414165964" />
+    <state x="364" y="69" width="1365" height="888" key="find.popup" timestamp="1602527478033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="364" y="69" width="1365" height="888" key="find.popup/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602527478033" />
   </component>
 </project>
